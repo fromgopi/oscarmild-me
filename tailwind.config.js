@@ -1,4 +1,4 @@
-const colors = import('tailwindcss/colors');
+const colors = import('tailwindcss/colors.js');
 
 module.exports = {
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
