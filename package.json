@@ -1,7 +1,7 @@
 {
   "name": "oscarmild-me",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://oscarmild.me",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -15,6 +15,7 @@
     "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
     "react-helmet-async": "^1.1.2",
     "react-router-dom": "^6.0.2",
