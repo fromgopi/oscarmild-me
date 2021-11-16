@@ -1,7 +1,7 @@
 {
   "name": "oscarmild-me",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://oscarmild.me",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
