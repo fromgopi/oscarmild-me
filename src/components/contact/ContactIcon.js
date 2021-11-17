@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import data from '../../data/contact';
 
-const Contact = () => {
+const ContactIcons = () => {
     return (
         <ul className="icons">
             {data.map((icon) => {
@@ -16,4 +16,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactIcons;

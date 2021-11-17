@@ -1,5 +1,7 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import About from './commons/about/About';
 import Index from './components/index/Index';
 import Main from './container/layout/Main';
 
@@ -10,9 +12,10 @@ function App() {
 	return (
 		<BrowserRouter basename={PUBLIC_URL}>
 			<Suspense fallback={<Main />} >
-				<Switch>
-					<Route exact path="/" component={<Index/>}/>
-				</Switch>
+				<Routes>
+					<Route exact path="/" element={<Index/>}/>
+					<Route path="/about" element={<About/>} />
+				</Routes>
 			</Suspense>
 		</BrowserRouter>
 	);

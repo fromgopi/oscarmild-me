@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Gk from '../static/assets/images/gk-profile.jpg';
+import ContactIcons from '../components/contact/ContactIcon'
 
 const { PUBLIC_URL } = process.env;
-import Gk from '../static/assets/images/gk-profile.jpg';
 
 
 const SideBar = () => {
