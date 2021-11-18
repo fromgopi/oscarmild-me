@@ -6,6 +6,7 @@ const ContactIcons = () => {
     return (
         <ul className="icons">
             {data.map((icon) => {
+                console.log(icon.icon);
                 <li key={icon.label}>
                     <a href={icon.link}>
                         <FontAwesomeIcon icon={icon.icon}/>
