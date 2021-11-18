@@ -15,7 +15,7 @@ const SideBar = () => {
                     <img src={Gk} alt="Gopi Krishna M"/>
                 </Link>
                 <header>
-                    <h2>Gopi Krishna&apos;M </h2>
+                    <h2>Gopi Krishna M </h2>
                     <p><a href="mailto:muktevigk@oscarmild.me">muktevigk@oscarmild.me</a></p>
                 </header>
             </section>
