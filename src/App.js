@@ -8,7 +8,7 @@ import Main from './container/layout/Main';
 import './static/css/main.scss';
 const { PUBLIC_URL } = process.env; 
 console.log(PUBLIC_URL); 
-
+ 
 function App() {
 	return (
 		<BrowserRouter basename={PUBLIC_URL}>
