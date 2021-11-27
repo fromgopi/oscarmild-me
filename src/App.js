@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import About from './commons/about/About';
-import Index from './components/index/Index';
+import Index from './components/index/Index'; 
 import Main from './container/layout/Main'; 
 
 import './static/css/main.scss';
