@@ -6,7 +6,7 @@ import Index from './components/index/Index';
 import Main from './container/layout/Main';
 
 import './static/css/main.scss';
-const { PUBLIC_URL } = process.env;
+const { PUBLIC_URL } = process.env; 
 console.log(PUBLIC_URL); 
 
 function App() {
