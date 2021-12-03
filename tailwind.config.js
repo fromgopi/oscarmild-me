@@ -1,6 +1,6 @@
 const colors = import('tailwindcss/colors.js');
 
-module.exports = {
+module.exports = { 
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'], 
 	darkMode: 'media', // or 'media' or 'class'  
 	theme: {
