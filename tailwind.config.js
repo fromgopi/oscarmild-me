@@ -3,7 +3,7 @@ const colors = import('tailwindcss/colors.js');
 module.exports = { 
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'], 
 	darkMode: 'media', // or 'media' or 'class'    
-	theme: {   
+	theme: {    
 			screens: { 
 				sm: '480px', 
 				md: '768px',
